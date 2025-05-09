@@ -1,0 +1,35 @@
+ body {
+      font-family: Arial, sans-serif;
+      transition: background-color 0.5s, color 0.5s;
+      margin: 50px;
+      text-align: center;
+    }
+
+    .light-theme {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    .dark-theme {
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    #toggleBtn {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    #toggleBtn:hover {
+      background-color: #45a049;
+    }
+
+    #toggleBtn:active {
+      transform: scale(0.95);
+    }
